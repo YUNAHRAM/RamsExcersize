@@ -1,6 +1,6 @@
 # RamsExcersize
 
-hr
+#hr
 ram's excersize!! 
-strong
+#strong
  https://yunahram.github.io/RamsExcersize/
