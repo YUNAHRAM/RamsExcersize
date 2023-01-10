@@ -1,6 +1,6 @@
 # RamsExcersize
 
-#hr
-ram's excersize!! 
-#strong
- https://yunahram.github.io/RamsExcersize/
+
+# ram's excersize!! 
+
+# https://yunahram.github.io/RamsExcersize/
