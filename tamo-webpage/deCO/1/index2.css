@@ -1,0 +1,156 @@
+.text_area {
+  margin-top: 90px;
+  margin-left: 24px;
+}
+.text_area .line {
+  width: 46px;
+  height: 1px;
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  background-color: #ffe6cf;
+  opacity: 0.4;
+}
+.volume {
+  margin-bottom: 85px;
+}
+.text_area h1 {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: normal;
+  margin-bottom: 22px;
+}
+#circle_wrapper {
+  position: relative;
+  margin-top: 42px;
+  margin-left: 24px;
+}
+.circle {
+  width: 246px;
+  height: 246px;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle:first-child {
+  background-color: transparent;
+  border: 1px solid black;
+  opacity: 0.2;
+}
+.circle:nth-child(2) {
+  background-color: #ffc000;
+  left: 100px;
+}
+.circle:nth-child(3) {
+  background-color: #fedd15;
+  left: 200px;
+  transition: 1s;
+  top: 0;
+}
+.circle:nth-child(3):hover {
+  background-color: blue;
+  top: -20px;
+}
+.circle:nth-child(3):active {
+  background-color: red;
+  top: -20px;
+}
+#badge {
+  background-color: #ffc000;
+  width: 56px;
+  height: 56px;
+  color: #485861;
+  font-weight: bold;
+  margin-left: 24px;
+  padding-left: 13px;
+  padding-top: 18px;
+  box-sizing: border-box;
+  font-size: 9px;
+  line-height: 11px;
+  position: fixed;
+  top: 0%;
+  right: 24px;
+}
+.featured {
+  height: 310px;
+  background-image: url("../../imag/korea-g12497e99d_1920.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.count {
+  position: absolute;
+  top: 30px;
+  right: 26px;
+}
+.text_area {
+  position: absolute;
+  bottom: 36px;
+  left: 24px;
+}
+.featured .title {
+  margin-bottom: 12px;
+}
+sup {
+  font-size: 10px;
+}
+.swiper {
+  white-space: nowrap;
+  overflow-x: scroll;
+  margin-top: 24px;
+  padding: 24px;
+  padding-bottom: 7px;
+}
+.swiper li {
+  display: inline-block;
+  width: 136px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.swiper li:nth-child(1) {
+  background-image: url("../../imag/korea-g12497e99d_1920.jpg");
+}
+.swiper li:nth-child(2) {
+  background-image: url("../../imag/korea-g12497e99d_1920.jpg");
+}
+.swiper li:nth-child(3) {
+  background-image: url("../../imag/korea-g12497e99d_1920.jpg");
+}
+
+.item .num {
+  width: 26px;
+  height: 26px;
+  background-color: #ffe6cf;
+  color: #485762;
+
+  border-radius: 50%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: 20px;
+  position: absolute;
+  top: 50%;
+}
+.item .title {
+  font-size: 17px;
+}
+.item .desc {
+  font-size: 13px;
+  opacity: 0.7;
+}
+.item .infos {
+  display: inline-block;
+  width: 80%;
+  margin-left: 36px;
+}
+.item {
+  padding-top: 17px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
